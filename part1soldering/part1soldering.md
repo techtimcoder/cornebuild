@@ -40,4 +40,4 @@ Surface mount soldering practice boards exist and are relatively cheap in compar
 So all of this helped me get these sorts of results and I was happy enough to start the corne which will be in the next part.
 <img src="./images/practiceboard.jpg" width="50%" height="50%" />
 
-<a href="../part2kit/part2kit.md" target="_blank">Find Part 2 here:</a>
+<a href="../../part2kit/part2kit.md" target="_blank">Find Part 2 here:</a>
