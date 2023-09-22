@@ -14,6 +14,4 @@ Now the real fun begins!<br>
 
 <img src="./images/desk.jpg">
 
-<a href="" target="_blank">Find Part 3 here:</a>
-
 EDIT: in part 1 I forgot to include the usb desk fan for fume dissipation. I know it's not an extraction fan but it's better than breathing the smoke in directly (and it's pointed at a window).
