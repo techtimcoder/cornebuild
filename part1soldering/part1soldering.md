@@ -36,6 +36,6 @@ Surface mount soldering practice boards exist and are relatively cheap in compar
 5. Keep the temperature as low as you can. I heard nicenano's can be damaged with temps above 280C so I practice with 270 without issues
 
 So all of this helped me get these sorts of results and I was happy enough to start the corne which will be in the next part.
-![practiceboard](./images/practiceboard.jpg)
+<img src="./images/practiceboard.jpg" style="width: 50%; height: 50%" />
 
 Find Part 2 here
