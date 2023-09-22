@@ -7,6 +7,7 @@ I couldn't think of a better place to start because if you're undertaking a full
 ### Soldering iron
 
 An absolute must have is a temperature controlled iron but that doesn't mean expensive. I've got an Ebay cheapy, 60w soldering station. It cost me less than $50AUD delivered and came with multiple tips (also important).
+![station](./images/solderstation.jpg)
 
 ### Solder
 
@@ -28,14 +29,11 @@ I don't think are necessary. I have a little magnifying stand but it throws out 
 
 Surface mount soldering practice boards exist and are relatively cheap in comparison to a keyboard. For under $9AUD on Ebay I had a practice board that came with leds, resistors, diodes etc. Changing the tips and adjusting the temps really let's you get your technique down and perfected. While a number of videos had said to hold your iron on the soldering pad and pin, then apply your solder at the junction of the 3, when dealing with tiny diodes and leds, it's not really feasible. So here's a few tips:
 
-A smaller chisel tip with a small amount of solder on it was far easier
+1. A smaller chisel tip with a small amount of solder on it was far easier
+2. Cleaning the tip with a coiled wire cleaner and wet sponge every few joints helped keep that tip in the best condition for soldering
+3. Flux paste on the pad helps flow the solder exactly where it needs to be
+4. Be quick. Each joint should only take a couple of seconds. Any longer and you risk damaging the component. If you can't get it, move to the next component and come back after it's cooled down
+5. Keep the temperature as low as you can. I heard nicenano's can be damaged with temps above 280C so I practice with 270 without issues
 
-Cleaning the tip with a coiled wire cleaner and wet sponge every few joints helped keep that tip in the best condition for soldering
-
-Flux paste on the pad helps flow the solder exactly where it needs to be
-
-Be quick. Each joint should only take a couple of seconds. Any longer and you risk damaging the component. If you can't get it, move to the next component and come back after it's cooled down
-
-Keep the temperature as low as you can. I heard nicenano's can be damaged with temps above 280C so I practice with 270 without issues
-
-So all of this helped me get these sorts of results (pic below) and I was happy enough to start the corne which will be in the next part.
+So all of this helped me get these sorts of results and I was happy enough to start the corne which will be in the next part.
+![practiceboard](./images/practiceboard.jpg)
