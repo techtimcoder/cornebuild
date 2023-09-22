@@ -13,6 +13,6 @@ KEEBD is based in Sydney and had the Corne with Helios mcu's (same specs as SeaP
 Now the real fun begins!
 <img src="./images/desk.jpg">
 
-<a href="" target="_blank">Find Part 3 here:</a>
+<a href="../../main/part2kit/part2kit.md" target="_blank">Find Part 3 here:</a>
 
 EDIT: in part 1 I forgot to include the usb desk fan for fume dissipation. I know it's not an extraction fan but it's better than breathing the smoke in directly (and it's pointed at a window).
