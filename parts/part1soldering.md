@@ -7,7 +7,7 @@ I couldn't think of a better place to start because if you're undertaking a full
 ### Soldering iron
 
 An absolute must have is a temperature controlled iron but that doesn't mean expensive. I've got an Ebay cheapy, 60w soldering station. It cost me less than $50AUD delivered and came with multiple tips (also important).
-<img src="./images/solderstation.jpg" width="50%" height="50%" />
+<img src="../images/solderstation.jpg" width="50%" height="50%" />
 
 ### Solder
 
@@ -38,6 +38,4 @@ Surface mount soldering practice boards exist and are relatively cheap in compar
 ## SUMMARY
 
 So all of this helped me get these sorts of results and I was happy enough to start the corne which will be in the next part.
-<img src="./images/practiceboard.jpg" width="50%" height="50%" />
-
-<a href="" target="_blank">Find Part 2 here:</a>
+<img src="../images/practiceboard.jpg" width="50%" height="50%" />
