@@ -11,6 +11,7 @@ So the hunt was on. There's a few stores in Aus that sold the kit but initially 
 KEEBD is based in Sydney and had the Corne with Helios mcu's (same specs as SeaPicro). And they had stock. Ordered and received by express post 2 within 2 days. As I already had keycaps and switches from another mechanical board the order consisted of the v3 kit, the mcu's, female socket headers, and all the leds (underglow and per-key). Total was $168AUD.
 
 Now the real fun begins!
+
 <img src="./images/desk.jpg">
 
 <a href="" target="_blank">Find Part 3 here:</a>
