@@ -7,7 +7,7 @@ I couldn't think of a better place to start because if you're undertaking a full
 ### Soldering iron
 
 An absolute must have is a temperature controlled iron but that doesn't mean expensive. I've got an Ebay cheapy, 60w soldering station. It cost me less than $50AUD delivered and came with multiple tips (also important).
-![station](./images/solderstation.jpg)
+<img src="./images/solderstation.jpg" width="50%" height="50%" />
 
 ### Solder
 
