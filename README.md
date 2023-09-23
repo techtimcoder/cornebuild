@@ -7,3 +7,4 @@ The Aussie inclusion is more for context around costs and suppliers local to my 
 
 1. <a href="./parts/part1soldering.md">Soldering</a>
 2. <a href="./parts/part2kit.md">The kit</a>
+3. <a href="./parts/part3assembly.md">Assembly</a>
