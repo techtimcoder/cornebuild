@@ -80,6 +80,7 @@ Once you're ready to compile the firmware (again for my case specifically), I di
     <li>Ensured it was pointing at qmk_firmware using 'cd qmk_firmware' (during setup I imagine you can specify this but I didn't)</li>
     <li>Typed the following:</li>
 </ol>
+
 ```
 qmk compile -kb crkbd/rev1 -km custom -e CONVERT_TO=helios
 ```
