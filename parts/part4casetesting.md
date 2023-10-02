@@ -17,7 +17,7 @@ Something that I particularly enjoyed about this particular case was the flexibl
 
 <img src='../images/tentedcase.jpg' />
 
-## Testing
+## Firmware
 
 ### First Firmware
 
@@ -52,7 +52,9 @@ A couple of notable additions that came later in the piece include:
     <li>Print Screen Key Override - HRM LCtrl + Backspace is PrtScn
 </ul>
 
-### Firmware Compilation
+### Firmware
+
+#### Compilation
 
 I'll reiterate that the steps required here could be different if you're not using a RP2040 based MCU. But the easiest way to start your own custom firmware would be to copy an exiting folder found in the keymaps folder of your keyboards directory (in my case qmk_firmware/keyboards/crkbd/rev1), rename the folder, and edit the files. Google is your biggest friend here and I found the most useful resources to be the [QMK Documentation](https://docs.qmk.fm/#/), [r/ErgoMechKeyboards](https://www.reddit.com/r/ErgoMechKeyboards/), [r/olkb](https://www.reddit.com/r/olkb/) and the [QMK Discord](https://discord.gg/Uq7gcHh).
 
@@ -61,3 +63,48 @@ Getting back to the QMK Configurator keymap.json file mentioned earlier, if you 
 ```
 qmk json2c > filename.c
 ```
+
+What this will let you do is grab the keymaps in the correct layout to put in your modified keymap.c file. A basic source code of a qmk keymap includes:
+
+<ul>
+    <li>keymap.c (where your keymap, rgb, oled setups live)</li>
+    <li>config.h (configuring items for the features in rules.mk)</li>
+    <li>rules.mk (enabling/disabling features mostly)</li>
+</ul>
+More advanced keymaps can import other files etc so depending on which type you copy from, your structure could look slightly different but still have these staples.
+
+Once you're ready to compile the firmware (again for my case specifically), I did the following:
+
+<ol>
+    <li>Opened the QMK CLI</li>
+    <li>Ensured it was pointing at qmk_firmware using 'cd qmk_firmware' (during setup I imagine you can specify this but I didn't)</li>
+    <li>Typed the following:</li>
+</ol>
+```
+qmk compile -kb crkbd/rev1 -km custom -e CONVERT_TO=helios
+```
+
+What's important to note here is that '-kb xxxxxx' defines the location of the keyboard version within the keyboards folder of qmk_firmware, '-km custom' is the name of the folder inside the keymaps folder where your custom files are located, and the 'CONVERT_TO=helios' performs the conversion that I needed to be able to flash my Helios MCUs. For a list of other supported conversions please go [here](https://docs.qmk.fm/#/feature_converters?id=overview). I imagine that as long as your MCU has the same features, pin layout and controlling chip as one with a supported convertor, you could use it but please do your own research first.
+
+#### Flashing
+
+The version of the Corne that I used came with a reset button which you can use to put the MCU into bootloader mode by:
+
+<ol>
+    <li>Ensuring the USB is unplugged first, then disconnecting both halves</li>
+    <li>Hold the reset button down and plug the USB cable in</li>
+    <li>Release the reset button</li>
+</ol>
+On the Helios MCU (or most RP2040 based MCUs) this should cause the MCU to show up as a USB storage device where the firmware file can be copied to (after the above compilation steps you'll find the .uf2 file in the qmk_firmware directory). This process needs to be done seperately for each half of the keyboard before they can be connected.
+
+A slightly alternate way of doing this would be to use the following command instead of the compilation one above:
+
+```
+qmk flash -kb crkbd/rev1 -km custom -e CONVERT_TO=helios
+```
+
+The one difference here is that after it's compiled, the QMK CLI will look for an MCU in bootloader mode and copy it across automatically, but only to the first half. You still need to perform the manual copy and paste for the second half.
+
+## Testing
+
+After all of that I plugged in the keyboard and everything worked (except for the RGB led mentioned earlier) and I can tell you that it was a relief!
