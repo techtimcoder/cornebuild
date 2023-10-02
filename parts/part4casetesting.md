@@ -2,9 +2,8 @@
 
 Note: this part of the guide is only based on the research that I had done and my own experience. If I state something that is incorrect I am happy to be corrected and will add edits accordingly. It is also only looking at a QWERTY layout.
 
-```
-WARNING: Pay close attention to what you are doing when unplugging and replugging the keyboard. Any split keyboard that uses a TRRS jacks to trasmit data between the two halves can have the microcontrollers damaged if the USB cable is not disconnected before removing the TRS cable. This is to do with the contacts inside the reciever. I've experienced this first hand!
-```
+> [!WARNING]
+> Pay close attention to what you are doing when unplugging and replugging the keyboard. Any split keyboard that uses a TRRS jacks to trasmit data between the two halves can have the microcontrollers damaged if the USB cable is not disconnected before removing the TRS cable. This is to do with the contacts inside the reciever. I've experienced this first hand!
 
 ## Case
 
